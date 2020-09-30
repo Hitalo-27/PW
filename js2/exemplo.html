@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Manipulação de string em JS</title>
+</head>
+<body>
+    <script type='text/javascript'>
+        var texto = "Hoje o dia está chuvoso.";
+        document.write("A string: " + texto);
+        document.write("<br> Tamanho da string (length): " + texto.length);
+        document.write("<br> Retorna o caracter da posição informada: " + texto.charAt(0) );
+        document.write("<br> Retorna a posição onde começa a substring: " + texto.indexOf(" ")  );
+        document.write("<br>"+texto.indexOf("di")+ " + " + "di".length + " = " + (texto.indexOf("di")+"di".length-1));
+        document.write("<br> Retorna os caracteres informados (I, F-1): " + texto.slice(14,19) );
+        document.write("<br> Substitui o texto informado: " + texto.replace("chuvoso", "ensolarado") );
+        document.write("<br>" + texto);
+        document.write("<br> Retorna a substring informada (I, F-1): " + texto.substring(1,4) );
+        document.write("<br> Retorna todas as letras maiúsculas: " + texto.toUpperCase() );
+        document.write("<br> Retorna todas as letras minúsculas: " + texto.toLowerCase() );
+    </script>
+</body>
+</html>
+

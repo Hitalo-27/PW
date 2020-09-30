@@ -1,0 +1,76 @@
+<html>
+    <head><title>Palíndromo</title></head>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" >
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+              
+    <a class="navbar-brand" href="#">Exercicios de JS</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alterna navegação">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        
+                <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle letra" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Strings
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="exercicio1.html">Exercicio 1</a>
+                  <a class="dropdown-item" href="exercicio2.html">Exercicio 2</a>
+                  <a class="dropdown-item" href="exercicio3.html">Exercicio 3</a>
+                  <a class="dropdown-item" href="exercicio4.html">Exercicio 4</a>
+              </div>
+            </li>
+  
+      </ul>
+    </div>
+    <nav class="navbar navbar-dark bg-primary">
+    <form class="form-inline cor3">
+      <input class="form-control mr-sm-2-dark  " type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+      <button class="btn btn-outline-light my-2 my-sm-0 " type="submit">Pesquisar</button>
+    
+    </form>
+  </nav>
+  </nav>
+        <Script type="text/javascript">
+        
+        var fraseUser = prompt("Escreva uma palavra");
+    
+    function frasePalindromo(fraseUser){
+     
+      fraseUser=fraseUser.toLowerCase().replace(/\s/g,"");
+      
+      fraserReverse=fraseUser.split("").reverse().toString();
+      
+      for (var i = 0; i < ((fraserReverse.length)-1); i++) {
+        fraserReverse=fraserReverse.replace(",","");
+      };
+      
+      if(fraseUser==fraserReverse){
+        
+        resultado="É Palindromo";
+      }
+      else{
+        
+        resultado="Não é Palindromo";
+      }
+      
+      document.write("<p style='color:#000000; font-size:40px;'>Sua frase "+resultado+"</p>");
+
+    }
+    
+    frasePalindromo(fraseUser);
+        
+        
+        </Script>
+        
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+    
+</html>
