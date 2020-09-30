@@ -1,0 +1,215 @@
+body{
+    background-image: url("p1.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family:sans-serif;
+    margin:0;
+    font-size:80px ;
+}
+#corpo{
+    width: auto;
+    height: auto;
+    margin: auto;
+    
+    
+}
+#topo{
+    width: auto;
+    height:auto;
+    font-size: 50;
+    text-align: center;
+    text-decoration-color: #000000;
+    padding: 50px;
+}
+.quar{
+    background: #ffffff;
+    color: #000000;
+    
+    
+}
+
+nav{
+  font-family: Arial;
+  font-size: 25px;
+   margin: 0px;
+    padding: 0px;
+}
+ul{
+    list-style: none;
+    width: 1500px;
+    
+    
+}
+
+li a{
+    width: 13%;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    color: #FFFFFF;
+    margin: 0px;
+    font-size: 25px;
+    font-family: cursive;
+    border-radius: 10px;
+}
+
+
+a:hover{
+  text-decoration: none;
+  background-color:#FFFFFF;
+  color: #000000;
+  text-decoration: underline;
+    margin: 0px;
+    padding: 0px;
+}
+.p1:hover{
+  text-decoration: none;
+  background-color: #FFFFFF;
+  color: #FFFFFF;
+  font-size: 30px;
+    
+    
+}
+#conteudo{
+    background:#ffffffbf;
+    height: 600px;
+    width: 1250px;
+}
+#co{
+    background:#ffffffbf;
+    height: 1000px;
+    width: 1250px;
+    
+    
+}
+
+h1{
+    color:#FFFFFF;
+    font-family: serif;
+    font-size: 150px;
+}
+
+h2{
+    font-size: 40px;
+    color: #000000;
+    font-family: serif;
+    text-align: left;
+    margin-left: 10;
+    margin-right: 10;
+}
+
+p{
+    margin-left: 10;
+    margin-right: 10;
+    color:#000000;
+    font-size: 30;
+    text-align: left;
+
+}
+
+
+table{
+    font-size: 30px;
+}
+    
+textarea{
+    width: 860px;
+    height: 64px;
+}
+.contato{
+    background:#ffffffbf;
+    height: 550px;
+    width: 1250px;
+}
+#rodape{
+    width: auto;
+    height: 150px;
+    background-image: url("mar3.png");
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    clear: both;
+}
+.cont{
+    color: #000000;
+    font-size: 80px;
+}
+.roda{
+    text-align: center;
+    font-size: 23px;
+    color: #000000;
+    font-family: fantasy;
+}
+#com{
+    background:#ffffffbf;
+    height: 900px;
+    width: 1250px;
+    
+}
+#praia{
+    background:#ffffffbf;
+    height: 1000px;
+    width: 1200px;
+    
+}
+#quarto{
+    background:#ffffffbf;
+    height: 3400px;
+    width: 1250px;
+    
+}
+.quarto{
+    margin-left: 10;
+    margin-right: 10;
+
+    font-size: 60;
+    text-align: center;
+    font-family: fantasy;
+  
+    
+}
+#res{
+    background:#ffffffbf;
+    height: 1500px;
+    width: 1250px;
+    
+}
+.res{
+    
+    color:#000000;
+    font-size: 60;
+    font-family: fantasy;
+}
+#lo{
+    background:#ffffffbf;
+    height: 700px;
+    width: 1250px;
+}
+#cidade{
+    background:#ffffffbf;
+    height: 1800px;
+    width: 1250px;
+}
+form{
+    font-size: 20px;
+    float: right 10px;
+}
+#aco{
+    background:#ffffffbf;
+    height: 1700px;
+    width: 1250px;
+    
+    
+}
+#sol{
+    background:#ffffffbf;
+    height: 4600px;
+    width: 1250px;
+    
+    
+}
+.contt{
+    font-size: 30px;
+    
+}
