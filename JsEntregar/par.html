@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <title>Exercicio1</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css" >
+        <link rel="stylesheet" href="css/estilo.css">
+    </head>
+
+    <body>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <a class="navbar-brand" href="#">Exercicios de JS</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alterna navegação">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                      <ul class="navbar-nav">
+                        
+                                <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle letra" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Lista 1
+                          </a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="par.html">Numero Impar ou Par</a>
+                              <a class="dropdown-item" href="nota.html">Nota</a>
+                              <a class="dropdown-item" href="salario.html">Salario</a>
+                          </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle letra" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Lista 2
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                              <a class="dropdown-item" href="potencia.html">Potência</a>
+                                <a class="dropdown-item" href="fibonacci.html">Fibonacci</a>
+                                <a class="dropdown-item" href="graus.html">Graus Celsius</a>
+                                <a class="dropdown-item" href="fatorial.html">Fatorial </a>
+                            </div>
+                          </li>
+                  
+                      </ul>
+                    </div>
+                      <nav class="navbar navbar-dark bg-dark">
+                    <form class="form-inline cor3">
+                      <input class="form-control mr-sm-2-dark  " type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+                      <button class="btn btn-outline-success my-2 my-sm-0 " type="submit">Pesquisar</button>
+                    </form>
+                  </nav>
+                  </nav>
+                  <center>
+        <script type="text/javascript">
+            var n1;
+            n1 = parseInt(prompt ("digite um numero"));
+           if(n1%2==0){
+            document.write("<p style='color:#FFFFFF; font-size:100px;'>O Numero é Par</p>");
+              
+
+           }
+           else{
+            document.write("<p style='color:#FFFFFF; font-size:100px;'>O Numero é Impar</p>");
+           }
+            
+
+        </script>
+       </center>
+       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+       <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>
