@@ -1,0 +1,167 @@
+
+ body{
+    background-color :#242424;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+
+    margin-left: 8%;
+}
+.orca{
+    width: 80%;
+    margin: auto;
+}
+
+
+
+.navbar-brand{
+    width: 10%;
+}
+.nav-link{
+    width: 130px;
+}
+
+
+.card{
+    margin-left: 15%;
+    float: left;
+    width: 30%;
+    
+
+}
+
+
+
+.card-text{
+    font-size: 120%;
+    
+}
+.card-img-top{
+    width: 100%;
+    height: 195px;
+}
+
+
+.is{
+    width: 100%;
+    height: 35%;
+}
+.card1{
+      margin-left: 8%;
+    float: left;
+ 
+}
+h1{
+    color: azure;
+    margin-left: 10%;
+}
+iframe{
+    padding-top: 5%;
+}
+
+label{
+    color: azure;
+}
+.form-group{
+    padding-top: 10%;
+}
+form{
+    padding-top: 10%;
+}
+.h1{
+    padding-top: 20%;
+    color: azure;
+        
+}
+.carro{
+    padding-bottom: 40%;
+    
+}
+.carro1{
+    padding-bottom: 30%;
+}
+.h5{
+    font-size: 250%;
+    font-family: serif;
+}
+.part{
+    font-size: 120%; 
+    font-family: cursive;
+}
+.h51{
+    font-size: 250%;
+    font-family: serif;
+    color: #000000;
+}
+.part1{
+    font-size: 120%; 
+    font-family: cursive;
+    color: #000000;
+}
+
+
+.cor{
+    margin-left: 10%;
+}
+.cor3{
+    padding-top: 3%;
+
+}
+.co{
+    position: absolute;
+    padding-top: 0%;
+}
+.pe{
+    font-size: 200%;
+    color: azure;
+}
+.nass{
+    color: #ffffff;
+    font-family: monospace;
+    font-size: 230%
+}
+.nas{
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 100%
+}
+.quemso{
+    float: left;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 100%;
+    padding-top: 2%
+        
+}
+.somo{
+    width: 100%;
+    float: left;
+        
+}
+.quem{
+
+    width: 60%;
+    float: left;
+    }
+.so{
+    width: 100%;
+    height: 100%;
+}
+.nasss{
+        color: #ffffff;
+    font-family: sans-serif;
+    font-size: 100%
+}
+.nassss{
+        color: #ffffff;
+    font-family: monospace;
+    font-size: 230%;
+    padding-top: 60%;
+        
+}
+        
+.alu{
+    margin-left: 22%;
+}
